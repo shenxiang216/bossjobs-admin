@@ -1,3 +1,10 @@
+/*
+ * @Author: 赵亚鑫Deep Lane
+ * @Date: 2021-08-02 10:11:41
+ * @LastEditors: 赵亚鑫Deep Lane
+ * @LastEditTime: 2022-05-01 16:52:56
+ * @Description:
+ */
 import { Form, Input, Button, message } from 'antd'
 import { useHistory } from 'react-router-dom'
 import style from './style.module.css'
@@ -51,7 +58,7 @@ export default function Login() {
             },
           ]}
         >
-          <Input type='password' placeholder='密码' />
+          <Input type='password' placeholder='密码' autoComplete='off' />
         </Form.Item>
         <Form.Item>
           <Button block type='primary' onClick={submit}>

@@ -113,7 +113,7 @@ export default class Home extends React.Component<RouteComponentProps> {
     return (
       <Layout className={style.layout}>
         <Layout.Header className={style.header}>
-          <div className={style.brand}>BOSS直聘管理端</div>
+          <div className={style.brand}>Light直聘管理端</div>
           <span className={style.username}>{store.user?.nickname}</span>
           <Dropdown
             arrow
